@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Italiana:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home-page">
+      <div class="home-page1">
+        <div class="foot">
+          <div class="foot-child"></div>
+          <b class="golitech">GoLitech</b>
+          <img class="logo-icon" alt="" src="./picture" />
+
+          <div class="golitech-is-an">
+            GoLitech is an international manufacturer of computer peripherals
+            with a strong focus on gaming gear such as mice, headsets,
+            keyboards, and more. The company has branches spread across the
+            world and has established itself as a leading brand in the gaming
+            industry.
+          </div>
+          <b class="about-us" id="aboutUsText">About Us</b>
+          <div class="home">Home</div>
+          <div class="contact-us">Contact Us</div>
+          <div class="our-products" id="ourProductsText">Our Products</div>
+          <div class="membership" id="membershipText">
+            <p class="days">Membership</p>
+          </div>
+          <div class="more" id="moreText">More</div>
+          <div class="headsets" id="headsetsText">Headsets</div>
+          <div class="mouse" id="mouseText">Mouse</div>
+          <div class="keyboard" id="keyboardText">
+            <p class="days">Keyboard</p>
+          </div>
+          <b class="shop">Shop</b>
+          <b class="others">Others</b>
+        </div>
+        <div class="product">
+          <div class="product-child"></div>
+          <div class="get-button" id="getButtonContainer">
+            <div class="get-button-child"></div>
+            <b class="see-more-products">See More Products</b>
+          </div>
+        </div>
+        <div class="home-page-child"></div>
+        <div class="join-button" id="joinButtonContainer">
+          <div class="join-button-child"></div>
+          <b class="join-now">Join Now</b>
+        </div>
+        <b class="member-benefits">Member Benefits</b>
+        <img class="member-icon" alt="" src="./public/member.svg" />
+
+        <b class="days-returns-or-container">
+          <p class="days">30-Days</p>
+          <p class="days">Returns or</p>
+          <p class="days">Refund</p>
+        </b>
+        <img class="box-icon" alt="" src="./public/box.svg" />
+
+        <img class="truck-icon" alt="" src="./public/truck.svg" />
+
+        <b class="free-shipping-on-container">
+          <p class="days">Free Shipping On Order Above</p>
+          <p class="days">Rp 100.000</p>
+        </b>
+        <img class="shield-icon" alt="" src="./public/shield.svg" />
+
+        <b class="original-products">
+          <p class="days">100% Original</p>
+          <p class="days">Products</p>
+        </b>
+        <div class="group">
+          <img class="gambar-1-icon" alt="" src="./public/gambar-1@2x.png" />
+
+          <img class="gambar-2-icon" alt="" src="./public/gambar-2@2x.png" />
+
+          <img class="image-2-icon" alt="" src="./public/image-2@2x.png" />
+
+          <img class="image-3-icon" alt="" src="./public/image-3@2x.png" />
+
+          <img class="image-4-icon" alt="" src="./public/image-4@2x.png" />
+
+          <div class="div">&gt;</div>
+          <div class="div1">&lt;</div>
+          <div class="get-it" id="getItContainer">
+            <div class="get-it-child"></div>
+            <b class="get-it-now-container">
+              <p class="days">Get It</p>
+              <p class="days">Now -&gt;</p>
+            </b>
+          </div>
+          <div class="our-best-seller-container">
+            <p class="days">Our Best Seller</p>
+            <p class="days">Products</p>
+          </div>
+          <div class="introducing-the-worlds">
+            Introducing the world's top-rated keyboard, a favorite among gamers.
+            It's back for a limited time only, so grab yours now.
+          </div>
+        </div>
+      </div>
+      <div class="header">
+        <div class="header-child"></div>
+        <img class="vector-icon" alt="" src="./public/vector.svg" />
+
+        <b class="about-us1" id="aboutUsText1">About Us</b>
+        <b class="membership2" id="membershipText1">Membership</b>
+        <b class="our-products1" id="ourProductsText1">Our Products</b>
+        <div class="your-gaming-gear">#1 YOUR GAMING GEAR</div>
+        <b class="golitech1">GoLitech</b>
+        <img class="logo-icon1" alt="" src="./public/logo1@2x.png" />
+
+        <b class="our-stores" id="ourStoresText">Our Stores</b>
+        <img
+          class="icon-magnifying-glass"
+          alt=""
+          src="./public/-icon-magnifying-glass.svg"
+        />
+      </div>
+    </div>
+
+    <script>
+      var aboutUsText = document.getElementById("aboutUsText");
+      if (aboutUsText) {
+        aboutUsText.addEventListener("click", function (e) {
+          window.location.href = "./about-us.html";
+        });
+      }
+      
+      var ourProductsText = document.getElementById("ourProductsText");
+      if (ourProductsText) {
+        ourProductsText.addEventListener("click", function (e) {
+          window.location.href = "./product-1.html";
+        });
+      }
+      
+      var membershipText = document.getElementById("membershipText");
+      if (membershipText) {
+        membershipText.addEventListener("click", function (e) {
+          window.location.href = "./membership.html";
+        });
+      }
+      
+      var moreText = document.getElementById("moreText");
+      if (moreText) {
+        moreText.addEventListener("click", function (e) {
+          window.location.href = "./product-1.html";
+        });
+      }
+      
+      var headsetsText = document.getElementById("headsetsText");
+      if (headsetsText) {
+        headsetsText.addEventListener("click", function (e) {
+          window.location.href = "./product-4.html";
+        });
+      }
+      
+      var mouseText = document.getElementById("mouseText");
+      if (mouseText) {
+        mouseText.addEventListener("click", function (e) {
+          window.location.href = "./product-1.html";
+        });
+      }
+      
+      var keyboardText = document.getElementById("keyboardText");
+      if (keyboardText) {
+        keyboardText.addEventListener("click", function (e) {
+          window.location.href = "./product-7.html";
+        });
+      }
+      
+      var getButtonContainer = document.getElementById("getButtonContainer");
+      if (getButtonContainer) {
+        getButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./product-1.html";
+        });
+      }
+      
+      var joinButtonContainer = document.getElementById("joinButtonContainer");
+      if (joinButtonContainer) {
+        joinButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./membership.html";
+        });
+      }
+      
+      var getItContainer = document.getElementById("getItContainer");
+      if (getItContainer) {
+        getItContainer.addEventListener("click", function (e) {
+          window.location.href = "./product-1.html";
+        });
+      }
+      
+      var aboutUsText1 = document.getElementById("aboutUsText1");
+      if (aboutUsText1) {
+        aboutUsText1.addEventListener("click", function (e) {
+          window.location.href = "./about-us.html";
+        });
+      }
+      
+      var membershipText1 = document.getElementById("membershipText1");
+      if (membershipText1) {
+        membershipText1.addEventListener("click", function (e) {
+          window.location.href = "./membership.html";
+        });
+      }
+      
+      var ourProductsText1 = document.getElementById("ourProductsText1");
+      if (ourProductsText1) {
+        ourProductsText1.addEventListener("click", function (e) {
+          window.location.href = "./product-1.html";
+        });
+      }
+      
+      var ourStoresText = document.getElementById("ourStoresText");
+      if (ourStoresText) {
+        ourStoresText.addEventListener("click", function (e) {
+          window.location.href = "./our-stores-1.html";
+        });
+      }
+      </script>
+  </body>
+</html>
